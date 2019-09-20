@@ -10,7 +10,7 @@ public class RitaMedJavaFX extends Application {
    @Override 
    public void start(Stage stage) { 
       //Drawing a Circle 
-      Circle circle = new Circle(); 
+      Circle circle = new Circle();
          
       //Setting the properties of the circle 
       circle.setCenterX(300.0f); 
