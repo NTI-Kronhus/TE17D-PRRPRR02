@@ -6,17 +6,14 @@ public class Hedgehog extends Animal {
         super(color);
     }
 
-    @Override
     void speak() {
         System.out.println("Hedgehog is squeeking!");
     }
 
-    @Override
     void sleep() {
         System.out.println("Hedgehog is napping!");
     }
 
-    @Override
     void eat() {
         System.out.println("Hedgehog is omnomnoming!");
     }

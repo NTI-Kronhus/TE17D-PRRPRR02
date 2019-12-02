@@ -7,7 +7,8 @@ public class Main   {
 
         Animal[] animals = {new Dog("Black"),
                             new Hedgehog("Pink"),
-                            new Bird("Yellow")};
+                            new Bird("Yellow"),
+                            new Snake("Black and Yellow")};
 
         System.out.println("###############");
         System.out.println();
@@ -18,6 +19,7 @@ public class Main   {
             animal.speak();
             animal._color = "Grey";
             System.out.println(animal.getClass().getSimpleName() + " is " + animal.getColor());
+            animal.walk();
             System.out.println();
 
             System.out.println("###############");

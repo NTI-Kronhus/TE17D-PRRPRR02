@@ -9,14 +9,17 @@ public abstract class Animal {
         _color = color;
     }
 
-    public String getColor()
-    {
-        return _color;
-    }
-
     abstract void speak();
 
     abstract void sleep();
 
     abstract void eat();
+
+    public String getColor() {
+        return _color;
+    }
+
+    public void walk() {
+        System.out.println("Walking");
+    }
 }
