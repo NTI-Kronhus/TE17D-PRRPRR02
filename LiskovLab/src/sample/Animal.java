@@ -1,8 +1,8 @@
 package sample;
 
-public abstract class Animal {
+public abstract class Animal implements IMotions{
 
-    public String _color;
+    private String _color;
 
     public Animal(String color)
     {
@@ -19,7 +19,8 @@ public abstract class Animal {
         return _color;
     }
 
-    public void walk() {
-        System.out.println("Walking");
+    public void setColor(String color) {
+        _color = color;
     }
+
 }
