@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="New feature added">
-      <change afterPath="$PROJECT_DIR$/src/sample/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/IMotions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Owl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LiskovLab/sample/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LiskovLab/sample/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LiskovLab/sample/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LiskovLab/sample/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LiskovLab/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LiskovLab/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Hedgehog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Hedgehog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Snake.java" afterDir="false" />
     </list>
@@ -101,6 +89,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -108,6 +97,9 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -223,7 +215,25 @@
       <option name="project" value="LOCAL" />
       <updated>1575277459962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Interfaced it!">
+      <created>1575850301508</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1575850301508</updated>
+    </task>
+    <task id="LOCAL−00003" summary="New feature added">
+      <created>1575850384077</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1575850384077</updated>
+    </task>
+    <task id="LOCAL−00004" summary="New feature added">
+      <created>1575850441748</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1575850441748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -245,6 +255,7 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Interfaced it!" />
     <MESSAGE value="New feature added" />
     <option name="LAST_COMMIT_MESSAGE" value="New feature added" />
   </component>

@@ -19,6 +19,17 @@ public class Snake extends Animal {
     }
 
     @Override
+    public void setColor(String color)
+    {
+        if (color.equals("Grey"))
+        {
+            return;
+        }
+
+        super.setColor("Black");
+    }
+
+    @Override
     public void fly() {
         //not applicable
     }
