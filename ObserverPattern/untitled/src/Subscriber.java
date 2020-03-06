@@ -1,5 +1,3 @@
-package com.company;
-
 public class Subscriber implements IObserver {
 
     String _name;
