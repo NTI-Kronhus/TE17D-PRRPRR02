@@ -17,5 +17,16 @@ public class Main {
         channel.unSubscribe(sub2);
 
         channel.upload("Byhåla 2");
+
+
+        int choice = input.nextInt();
+
+        if(choice == 1){
+        }
+        else if(choice == 2){
+        }
+        else if(choice == 3){
+        }
+
     }
 }
