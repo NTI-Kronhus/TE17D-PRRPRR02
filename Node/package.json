@@ -1,0 +1,19 @@
+{
+  "name": "Node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^13.7.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

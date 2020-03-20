@@ -27,20 +27,7 @@ public class Controller {
     private CheckBox _eraser;
 
     public void initialize() {
-        GraphicsContext g = _canvas.getGraphicsContext2D();
-        _canvas.setOnMouseDragged(e -> {
-            double size = Double.parseDouble(_brushSize.getText());
-            double x = e.getX() - size / 2;
-            double y = e.getY() - size / 2;
 
-            if (_eraser.isSelected()){
-                g.clearRect(x, y, size, size);
-            }
-            else {
-                g.setFill(_colorPicker.getValue());
-                g.fillRect(x, y, size, size);
-            }
-        });
     }
 
     public void onSave() {

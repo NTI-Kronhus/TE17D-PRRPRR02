@@ -1,16 +1,16 @@
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.control.*?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.canvas.Canvas?>
-<BorderPane fx:controller="sample.Controller"
-        xmlns:fx="http://javafx.com/fxml"
-        prefHeight="600.0" prefWidth="600.0">
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="sample.Controller">
         <top>
             <VBox>
                 <MenuBar>
                     <Menu text="File">
-                        <MenuItem text="Save" onAction="#onSave"/>
-                        <MenuItem text="Exit" onAction="#onExit"/>
+                        <MenuItem onAction="#onSave" text="Save" />
+                        <MenuItem onAction="#onExit" text="Exit" />
                     </Menu>
                 </MenuBar>
 
@@ -24,7 +24,7 @@
             </VBox>
         </top>
         <center>
-            <Canvas fx:id="_canvas" width="600" height="600" />
+            <Canvas fx:id="_canvas" height="600" width="600" />
         </center>
 
 </BorderPane>
